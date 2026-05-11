@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>叶珂辛 - AI产品经理</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#hero" class="nav-link active">首页</a>
+                <a href="#background" class="nav-link">背景</a>
+                <a href="#internship" class="nav-link">实习</a>
+                <a href="#project" class="nav-link">项目</a>
+                <a href="#contact" class="nav-link">联系我</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 第1页：Hero -->
+    <section id="hero" class="page page-hero">
+        <div class="hero-center">
+            <!-- 环绕气泡 -->
+            <div class="bubble-orbit">
+                <div class="orbit-bubble bubble-1" style="--angle: 270deg;">
+                    <span>Vibe Coder</span>
+                </div>
+                <div class="orbit-bubble bubble-2" style="--angle: 330deg;">
+                    <span>AI Product</span>
+                </div>
+                <div class="orbit-bubble bubble-3" style="--angle: 30deg;">
+                    <span>Data Insight</span>
+                </div>
+                <div class="orbit-bubble bubble-4" style="--angle: 90deg;">
+                    <span>Legal Tech</span>
+                </div>
+                <div class="orbit-bubble bubble-5" style="--angle: 150deg;">
+                    <span>ENFJ</span>
+                </div>
+                <div class="orbit-bubble bubble-6" style="--angle: 210deg;">
+                    <span>可能·更多</span>
+                </div>
+            </div>
+
+            <!-- 中心内容 -->
+            <div class="hero-main">
+                <h1 class="hero-title">Know About Me</h1>
+                <div class="hero-name-line">
+                    <span class="hero-name">叶珂辛</span>
+                    <span class="name-separator">|</span>
+                    <span class="typewriter-wrapper">
+                        <span class="typewriter-text" id="typewriter"></span>
+                        <span class="typewriter-cursor">▌</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 金句 -->
+        <div class="hero-quote" id="heroQuote">
+            <p><span class="quote-pink">"</span>AI降低了执行的门槛，却不会替你决定做什么、为什么做、以及什么不能做。<span class="quote-pink">"</span></p>
+        </div>
+
+        <!-- 按钮 -->
+        <div class="hero-buttons">
+            <a href="#project" class="btn btn-outline-pink">查看作品</a>
+            <a href="#contact" class="btn btn-outline-pink">联系我</a>
+        </div>
+    </section>
+
+    <!-- 第2页：个人背景 -->
+    <section id="background" class="page page-background">
+        <div class="page-keyword">个人背景</div>
+        <div class="bg-container">
+            <div class="bg-grid">
+                <!-- 左栏 -->
+                <div class="bg-left">
+                    <!-- 教育经历卡片 -->
+                    <div class="card card-dark edu-card" data-delay="0">
+                        <h3 class="card-title">教育经历</h3>
+                        <div class="edu-item">
+                            <div class="edu-school">伦敦大学学院</div>
+                            <div class="edu-detail">2024.09 — 2025.12 <span class="edu-tag">QS第9</span></div>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-school">北京理工大学</div>
+                            <div class="edu-detail">2022.09 — 2024.06 <span class="edu-tag">GPA 4.0/4 前5%</span></div>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-school">四川师范大学</div>
+                            <div class="edu-detail">2018.09 — 2022.06 <span class="edu-tag">均分86.4 前5%</span></div>
+                        </div>
+                    </div>
+
+                    <!-- 社团经历 -->
+                    <div class="card card-dark club-card" data-delay="150">
+                        <h3 class="card-title">社团经历</h3>
+                        <div class="club-item">
+                            <div class="club-role">辩论队队长</div>
+                            <div class="club-achieve">安全杯冠军 · 狮山杯辩论赛冠军 · 中国辩论公开赛季军</div>
+                        </div>
+                        <div class="club-item">
+                            <div class="club-role">主办北美华语辩论公开赛</div>
+                            <div class="club-achieve">对接32所高校</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右栏 -->
+                <div class="bg-right">
+                    <!-- 荣誉卡片 -->
+                    <div class="card card-dark honor-card" data-delay="150">
+                        <h3 class="card-title">🏆 荣誉</h3>
+                        <ul class="honor-list">
+                            <li>三次校级二等奖学金</li>
+                            <li>三好学生多次</li>
+                            <li>辩论赛冠军及佳辩</li>
+                            <li>互联网+省级优秀奖</li>
+                        </ul>
+                    </div>
+
+                    <!-- 技能卡片 -->
+                    <div class="card card-dark skill-card" data-delay="300">
+                        <h3 class="card-title">🛠️ 技能</h3>
+                        <div class="skill-group">
+                            <div class="skill-label">AI技能</div>
+                            <div class="skill-tags">
+                                <span><span class="skill-highlight">Trae</span>, <span class="skill-highlight">Claude Code</span> 等 Vibe Coding 工具</span>
+                                <span><span class="skill-highlight">Coze</span>, <span class="skill-highlight">Dify</span> 等 Workflow 搭建平台</span>
+                                <span><span class="skill-highlight">Gemini</span>, <span class="skill-highlight">DeepSeek</span> 等 LLM 深度使用</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <div class="skill-label">工具</div>
+                            <div class="skill-tags">
+                                <span>MS Office</span>
+                                <span>SQL 基础理解</span>
+                                <span>Stata 等统计工具</span>
+                                <span>墨刀等原型工具</span>
+                                <span>剪映等剪辑软件</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第3页：实习经历（时间轴+雷达图） -->
+    <section id="internship" class="page page-internship">
+        <div class="page-keyword">实习经历</div>
+        <div class="internship-layout">
+            <!-- 左栏：时间轴内容 -->
+            <div class="timeline-scroll-area">
+                <div class="timeline">
+                    <!-- 时间轴线 -->
+                    <div class="timeline-line">
+                        <div class="timeline-progress" id="timelineProgress"></div>
+                    </div>
+
+                    <!-- 经历1：君合 -->
+                    <div class="timeline-item" data-index="0">
+                        <div class="timeline-node"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">2025年08月 - 2026年03月</span>
+                                <span class="timeline-company">四川君合律师事务所</span>
+                                <span class="timeline-role">律师助理</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p><strong>1. 独立搭建物流公司合同审核agent：</strong>全程负责物流行业合同智能审核助手的产品设计与落地，针对企业每天20+份采购/运输合同的审核压力，基于RAG架构搭建垂直场景审核方案。将顾问单位针对性审核清单与标准条款模板构建为可配置知识库，实现审核标准与业务强绑定，解决通用AI审核幻觉、增加交易成本的问题。最终单份合同审核耗时从<span class="data-highlight">90分钟压缩至30分钟</span>，个人日审核量从<span class="data-highlight">5-6份提升至20+份</span>。（agent链接：<a href="https://code.coze.cn/web-sdk/7636982690562015284" class="timeline-link" target="_blank">code.coze.cn/web-sdk/7636982690562015284</a>）</p>
+
+                                <p><strong>2. 设计三层递进式人机协同审查流程：</strong>聚焦"AI辅助而非替代律师"的核心定位，设计条款完备性检查-交互式补充-深度风险标注三层递进审核逻辑。关键在于：缺失条款不直接判定错误，而是交互式询问律师是否需从标准模板库补充，将决定权交还专业人员；额外条款自动标注并交由人工复核。杜绝AI越权决策，保障审核结论的严谨性与有效性。</p>
+
+                                <p><strong>3. 建立风险分级标注与强制复核机制：</strong>定义高风险识别规则（标的额&gt;100万等），实现自动触发性标注及AI初步分析。通过交互层面设置确认环节，防止实习生盲目采纳AI结果，错误审查结果，显著降低高风险条款漏审率，减轻律师复审负担。</p>
+
+                                <p><strong>4. 合作搭建劳动就业法律咨询智能Agent：</strong>与其他团队律师合作，针对中小企业HR及员工劳动法咨询频次高、常规服务耗时且难以沉淀的痛点，聚焦"可规模化的法律咨询服务"目标，独立设计五大功能模块——智能问答模块覆盖劳动法核心领域<span class="data-highlight">120+细分问题类型</span>；离职补偿计算器调用规则引擎保障金额准确性；风险速评模块识别争议类型并生成初步分析与证据收集建议；文书辅助模块实现槽位填充降低用户门槛；复杂案件转介模块设定风险路由规则，识别高风险争议后自动生成案件摘要并推荐对接律师。最终法律依据引用准确率达<span class="data-highlight">95%</span>。（agent链接：<a href="https://www.coze.cn/s/NBEoRNcJocq/" class="timeline-link" target="_blank">https://www.coze.cn/s/NBEoRNcJocq/</a> 已上线付费服务）</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 经历2：讯飞 -->
+                    <div class="timeline-item" data-index="1">
+                        <div class="timeline-node"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">2025年03月 - 2025年07月</span>
+                                <span class="timeline-company">科大讯飞</span>
+                                <span class="timeline-role">AI平台产品经理</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p><strong>1. 参与星火法律大模型语音交互矩阵的产品工作</strong>，覆盖"AI书记员"庭审转写、12368诉讼服务语音问答、"瑶法·星火"AI虚拟人等产品线。主导需求管理、版本迭代与效果优化全流程。作为核心对接人，联动算法、数据标注、客户三方，沉淀 "庭审场景需求梳理-专项模型迭代-法律Badcase归因-司法场景效果验证" 的标准化工作流，提升跨角色协作效率与项目交付质量。</p>
+
+                                <p><strong>2. 主导庭审语音转写版本升级：</strong> 全程参与"AI书记员"庭审转写模型V1.0至V2.0的迭代。聚焦庭审场景痛点，通过优化语音识别泛化能力与法律术语白名单，将庭审方言识别准确率从<span class="data-highlight">66.3%提升至96%</span>，法律专业术语识别准确率从<span class="data-highlight">75.4%提升至95%</span>，多人说话角色分离准确率达<span class="data-highlight">90%以上</span>，有力保障了全国多家法院庭审记录的精准性与可靠性。</p>
+
+                                <p><strong>3. 牵头AI虚拟人法律咨询效果优化：</strong> 聚焦"瑶法·星火"AI虚拟人的法律问答能力边界，主导【大模型回复】专项优化。针对群众口语化、碎片化咨询痛点，协同大模型、架构、检索等多技术团队，通过优化提示词工程与检索增强生成策略，将复杂场景下的法律咨询端到端准确率从<span class="data-highlight">75.4%提升至91.3%</span>，提升服务效率。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 中栏：滚动进度指示器 -->
+            <div class="scroll-indicator">
+                <div class="scroll-track">
+                    <div class="scroll-fill" id="scrollFill"></div>
+                </div>
+                <div class="scroll-dot"></div>
+            </div>
+
+            <!-- 右栏：能力雷达图 -->
+            <div class="radar-panel">
+                <canvas id="radarChart" width="360" height="360"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第4页：项目设计 -->
+    <section id="project" class="page page-project">
+        <div class="page-keyword">项目作品</div>
+        <div class="project-container">
+            <!-- 左侧文字卡片 -->
+            <div class="project-info-card" id="projectInfoCard">
+                <div class="project-info-content">
+                    <h2 class="project-name">🚀 出海盾 AI 数据合规自检平台</h2>
+                    <div class="project-section">
+                        <div class="project-section-title">─ 背景 ─</div>
+                        <p>中小企业在拓展欧盟、美国等市场时，在 Cookie同意、隐私政策声明、数据跨境传输等环节存在合规漏洞，面临巨额罚款风险。现有方案多为昂贵的人工咨询，缺乏面向中小客户的AI自动化工具。</p>
+                    </div>
+                    <div class="project-section">
+                        <div class="project-section-title">─ 产品设计 ─</div>
+                        <p>· 结构化梳理GDPR、CCPA等核心法规，构建出海合规知识库</p>
+                        <p>· 设计含角色设定、法规引用规则的Prompt，输出结构化报告（含付费锁、风险仪表盘、动态问卷、隐私政策预览等商业要素）</p>
+                    </div>
+                    <div class="project-section">
+                        <div class="project-section-title">─ AI 工作流 ─</div>
+                        <p>数据流测绘 → RAG法规检索 → 槽位提取 → 风险判定</p>
+                        <p>在Coze平台通过可视化编排落地，含5个核心节点，验证了完整AI合规分析逻辑闭环。</p>
+                    </div>
+                    <a href="https://github.com/kiki-yexi/chuhaidundemo-v2" class="project-github" target="_blank">🔗 GitHub: github.com/kiki-yexi/chuhaidundemo-v2</a>
+                </div>
+            </div>
+
+            <!-- 右侧图片展示 -->
+            <div class="project-showcase">
+                <div class="showcase-stack" id="showcaseStack">
+                    <div class="showcase-slide active" data-index="0">
+                        <div class="slide-image-wrapper">
+                            <img src="js/images/demo-1.png" alt="Demo 1" class="slide-image" draggable="false">
+                            <div class="slide-image-fade"></div>
+                        </div>
+                    </div>
+                    <div class="showcase-slide" data-index="1">
+                        <div class="slide-image-wrapper">
+                            <img src="js/images/demo-2.png" alt="Demo 2" class="slide-image" draggable="false">
+                            <div class="slide-image-fade"></div>
+                        </div>
+                    </div>
+                    <div class="showcase-slide" data-index="2">
+                        <div class="slide-image-wrapper">
+                            <img src="js/images/demo-3.png" alt="Demo 3" class="slide-image" draggable="false">
+                            <div class="slide-image-fade"></div>
+                        </div>
+                    </div>
+                    <div class="showcase-slide" data-index="3">
+                        <div class="slide-image-wrapper">
+                            <img src="js/images/demo-4.png" alt="Demo 4" class="slide-image" draggable="false">
+                            <div class="slide-image-fade"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-controls">
+                    <button class="showcase-btn" id="prevBtn">◀ Previous</button>
+                    <div class="showcase-indicators" id="indicators">
+                        <span class="indicator active"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                    </div>
+                    <div class="showcase-counter" id="counter">1/4</div>
+                    <button class="showcase-btn" id="nextBtn">Next ▶</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第5页：联系我 -->
+    <section id="contact" class="page page-contact">
+        <div class="contact-simple">
+            <h2 class="contact-simple-title">📬 联系我</h2>
+            <a href="mailto:2984427127@qq.com" class="contact-simple-item">✉️ 2984427127@qq.com</a>
+            <a href="tel:18982315931" class="contact-simple-item">📱 189-8231-5931</a>
+            <a href="resume.pdf" download="叶珂辛_AI产品经理_简历.pdf" class="contact-simple-btn-wrap">
+                <button class="contact-simple-btn">📄 下载简历 PDF</button>
+            </a>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
